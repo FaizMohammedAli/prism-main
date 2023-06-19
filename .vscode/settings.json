@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/1a7ad58e-5cad-4630-88f6-2b01ef2d4831/resourceGroups/Prism/providers/Microsoft.Web/sites/prism-one-click",
+    "appService.deploySubpath": "PRISM.UI/ClientApp/dist"
+}

@@ -1,0 +1,348 @@
+:host {
+  display: contents;
+}
+
+.log-in-container {
+  min-height: 100vh;
+}
+
+.log-in-log-in {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.log-in-image1 {
+  left: 0px;
+  width: 690px;
+  height: 154px;
+  position: absolute;
+  border-color: transparent;
+}
+
+.log-in-text {
+  top: 223px;
+  left: 466px;
+  color: rgba(11, 11, 10, 1);
+  width: 173px;
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+.log-in-email-field {
+  top: 314px;
+  left: 466px;
+  width: 507px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+}
+
+.log-in-text02 {
+  color: rgba(11, 11, 10, 1);
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Itim;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 8px;
+  text-decoration: none;
+}
+
+.log-in-input-field {
+  width: 312px;
+  display: flex;
+  padding: 6px 200px 6px 6px;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(11, 11, 10, 1);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.log-in-email {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 15px;
+}
+
+.log-in-layer2 {
+  top: 7.3333306312561035px;
+  left: 3.6666653156280518px;
+  width: 36.66667175292969px;
+  height: 29.333322525024414px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+
+.log-in-email1 {
+  top: 0px;
+  left: 0px;
+  width: 37px;
+  height: 29px;
+  position: absolute;
+}
+
+.log-in-line1 {
+  width: 36px;
+  height: 0px;
+  position: relative;
+  margin-right: 15px;
+}
+
+.log-in-text04 {
+  color: rgba(11, 11, 10, 1);
+  width: 240px;
+  height: auto;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+.log-in-email-field1 {
+  top: 454px;
+  left: 466px;
+  width: 507px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+}
+
+.log-in-text06 {
+  color: rgba(11, 11, 10, 1);
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Itim;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 8px;
+  text-decoration: none;
+}
+
+.log-in-input-field1 {
+  width: 312px;
+  display: flex;
+  padding: 6px 200px 6px 6px;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(11, 11, 10, 1);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.log-in-email2 {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 15px;
+}
+
+.log-in-password {
+  top: 0px;
+  left: 0px;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+}
+
+.log-in-line11 {
+  width: 36px;
+  height: 0px;
+  position: relative;
+  margin-right: 15px;
+}
+
+.log-in-text08 {
+  color: rgba(11, 11, 10, 1);
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Itim;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+.log-in-log-in-button {
+  padding: 10px 124px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 15px;
+  justify-content: center;
+  background-color: rgba(7, 159, 255, 1);
+}
+
+.log-in-text10 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+.log-in-text12 {
+  top: 705px;
+  left: 550px;
+  color: rgba(11, 11, 10, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+.log-in-text13 {
+  color: rgba(11, 11, 10, 1);
+}
+
+.log-in-group1 {
+  top: 117px;
+  left: 466px;
+  width: 624px;
+  height: 73px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+
+.log-in-text15 {
+  color: rgba(11, 11, 10, 1);
+  width: 624px;
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.log-in-image3 {
+  margin-right: 70px;
+  width: 48px;
+  position: absolute;
+  border-color: transparent;
+}
+
+input {
+  box-shadow: none;
+  border: 0;
+  outline: none;
+}
+
+input:focus:invalid {
+  box-shadow: none;
+  border: 2px solid red !important;
+  outline: none;
+}

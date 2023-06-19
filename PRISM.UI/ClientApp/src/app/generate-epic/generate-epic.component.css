@@ -1,0 +1,593 @@
+:host {
+    display: contents;
+}
+
+.epicpage-container {
+    min-height: 100vh;
+}
+
+.epicpage-epicpage {
+    width: 100%;
+    height: 1024px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.epicpage-input-field {
+    top: 689px;
+    left: 175px;
+    width: 1079px;
+    height: 137px;
+    display: flex;
+    padding: 13px 205px 13px 18px;
+    position: absolute;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(11, 11, 10, 1);
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.epicpage-text {
+    top: 109px;
+    left: 175px;
+    color: rgb(0, 0, 0);
+    height: auto;
+    position: absolute;
+    font-size: 48px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.epicpage-image1 {
+    top: 12px;
+    right: -2px;
+    width: 690px;
+    height: 154px;
+    position: absolute;
+    border-color: transparent;
+}
+
+.epicpage-image3 {
+    top: 109px;
+    left: 327px;
+    width: 35px;
+    height: 57px;
+    position: absolute;
+    border-color: transparent;
+}
+
+.epicpage-generate-ticket-text {
+    top: 551px;
+    left: 497px;
+    width: 490px;
+    display: flex;
+    padding: 15px 193px;
+    position: absolute;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 15px;
+    justify-content: center;
+    background-color: rgba(7, 159, 255, 1);
+}
+
+.epicpage-text01 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.log-in-log-in-button {
+    padding: 10px 50px;
+    position: absolute;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 15px;
+    justify-content: center;
+    background-color: rgba(7, 159, 255, 1);
+}
+
+.epicpage-create-jira-ticket {
+    top: 966px;
+    left: 497px;
+    width: 472px;
+    height: 53px;
+    display: flex;
+    padding: 15px 193px;
+    position: absolute;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 15px;
+    justify-content: center;
+    background-color: rgba(7, 159, 255, 1);
+}
+
+.epicpage-text03 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 31.346939086914062px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.epicpage-enter-ticket-field {
+    top: 223px;
+    left: 175px;
+    width: 1115px;
+    height: 159px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    flex-direction: column;
+}
+
+.epicpage-text05 {
+    color: rgba(11, 11, 10, 1);
+    width: 372px;
+    height: auto;
+    font-size: 24px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 8px;
+    text-decoration: none;
+}
+
+.epicpage-input-field1 {
+    height: 56px;
+    display: flex;
+    padding: 13px 205px 13px 18px;
+    position: relative;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(11, 11, 10, 1);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.epicpage-line1 {
+    width: 36px;
+    height: 0px;
+    position: relative;
+    margin-right: 15px;
+}
+
+.epicpage-text07 {
+    width: 100%;
+    color: rgba(11, 11, 10, 1);
+    height: auto;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.epicpage-aceptance-criteria-field {
+    top: 840px;
+    left: 175px;
+    width: 860px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    flex-direction: column;
+}
+
+.epicpage-text09 {
+    color: rgba(11, 11, 10, 1);
+    width: 495px;
+    height: auto;
+    font-size: 24px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 8px;
+    text-decoration: none;
+}
+
+.epicpage-input-field2 {
+    width: 1079px;
+    height: 58px;
+    display: flex;
+    padding: 13px 205px 13px 18px;
+    position: relative;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(11, 11, 10, 1);
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 15px;
+    margin-bottom: 8px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.epicpage-line11 {
+    width: 36px;
+    height: 0px;
+    position: relative;
+    margin-right: 15px;
+}
+
+.epicpage-text11 {
+    color: rgba(11, 11, 10, 1);
+    height: auto;
+    font-size: 24px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.epicpage-text13 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 15px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.epicpage-ticket-description-field {
+    top: 354px;
+    left: 172px;
+    width: 860px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    flex-direction: column;
+}
+
+.epicpage-text15 {
+    color: rgba(11, 11, 10, 1);
+    width: 372px;
+    height: auto;
+    font-size: 24px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 8px;
+    text-decoration: none;
+}
+
+/* .epicpage-input-field3 {
+    width: 1079px;
+    height: 131px;
+    display: flex;
+    padding: 13px 205px 13px 18px;
+    position: relative;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(11, 11, 10, 1);
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+} */
+
+.epicpage-line12 {
+    width: 36px;
+    height: 0px;
+    position: relative;
+    margin-right: 15px;
+}
+
+.epicpage-text17 {
+    color: rgba(11, 11, 10, 1);
+    height: auto;
+    font-size: 24px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.epicpage-review-acceptance-criteria {
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    flex-direction: column;
+}
+
+.epicpage-text19 {
+    color: rgba(11, 11, 10, 1);
+    width: 372px;
+    height: auto;
+    font-size: 22px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.epicpage-rectangle1 {
+    top: 701px;
+    left: 208px;
+    width: 24px;
+    height: 23px;
+    position: absolute;
+    border-color: transparent;
+}
+
+.epicpage-rectangle2 {
+    top: 731px;
+    left: 208px;
+    width: 24px;
+    height: 23px;
+    position: absolute;
+    border-color: transparent;
+}
+
+.epicpage-rectangle3 {
+    top: 761px;
+    left: 208px;
+    width: 24px;
+    height: 23px;
+    position: absolute;
+    border-color: transparent;
+}
+
+.epicpage-rectangle4 {
+    top: 793px;
+    left: 208px;
+    width: 24px;
+    height: 23px;
+    position: absolute;
+    border-color: transparent;
+}
+
+.epicpage-text21 {
+    top: 698px;
+    left: 240px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.epicpage-text23 {
+    top: 728px;
+    left: 240px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.epicpage-text25 {
+    top: 758px;
+    left: 240px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.epicpage-text27 {
+    top: 788px;
+    left: 239px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.log-in-image3 {
+    margin-left: 96px;
+    width: 48px;
+    position: absolute;
+    border-color: transparent;
+}
+
+input {
+    box-shadow: none;
+    border: 0;
+    outline: none;
+}
+
+input:focus:invalid {
+    box-shadow: none;
+    border: 2px solid red !important;
+    outline: none;
+}
+
+textarea {
+    height: 131px;
+    display: flex;
+    padding: 13px 205px 13px 18px;
+    position: relative;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(11, 11, 10, 1);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+textarea:focus:invalid {
+    box-shadow: none;
+    border: 2px solid red !important;
+    outline: none;
+}
+
+.generatedText {
+    float: left;
+    width: 100%;
+    overflow-y: auto;
+    margin-top: 36px;
+    height: 200px;
+    display: flex;
+    padding: 13px 205px 13px 18px;
+    position: relative;
+    flex-shrink: 0;
+    border-color: rgba(11, 11, 10, 1);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.generatedText::-webkit-scrollbar {
+    background-color: #fff;
+    width: 14px;
+}
+
+/* background of the scrollbar except button or resizer */
+.generatedText::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
+/* scrollbar itself */
+.generatedText::-webkit-scrollbar-thumb {
+    background-color: #babac0;
+    border-radius: 16px;
+    border: 4px solid #fff;
+}
+
+/* set button(top and bottom of the scrollbar) */
+.generatedText::-webkit-scrollbar-button {
+    display: none;
+}
+
+.form-check-input:not(:checked)[type=checkbox] {
+    border-radius: 0.25em;
+    background-color: lightgrey;
+}
+
+.form-check-input:checked {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}

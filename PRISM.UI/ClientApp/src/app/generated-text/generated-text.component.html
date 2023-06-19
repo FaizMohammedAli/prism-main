@@ -1,0 +1,11 @@
+<div *ngIf="generatedLogs.length > 0">
+    <div>Generated Backlogs</div>
+
+    <ul class="list-group">
+        <li class="list-group-item" *ngFor="let log of generatedLogs">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">{{log.split(".")[1]}}</label>
+        </li>
+    </ul>
+
+</div>

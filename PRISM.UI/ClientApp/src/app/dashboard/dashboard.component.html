@@ -1,0 +1,29 @@
+<div class="container pt-5">
+    <form [formGroup]="instructionForm">
+        <div class="form-group">
+            <label for="epicTitle">Epic title</label>
+            <input formControlName="title" type="email" class="form-control" id="epicTitle" aria-describedby="emailHelp"
+                placeholder="Enter Epic Title">
+        </div>
+        <div class="form-group pt-3">
+            <label for="epicDescription">Description</label>
+            <textarea formControlName="description" class="form-control" id="epicDescription" rows="3"></textarea>
+        </div>
+        <!-- <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div> -->
+        <div class="justify-content-center pt-3" style="display: flex;">
+            <button (click)="generateBacklogs()" type="submit" class="btn btn-primary">Generate Backlogs</button>
+        </div>
+
+        <div  *ngIf="isGeneratingLogs" class="justify-content-center pt-3" style="display: flex;">
+            <app-loader></app-loader>
+        </div>
+
+        <div *ngIf="areLogsGenerated" class="justify-content-center pt-3" style="display: flex;">
+            <app-generated-text [generatedLogs]="generatedLogs"></app-generated-text>
+        </div>
+        
+    </form>
+</div>

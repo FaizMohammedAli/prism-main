@@ -1,0 +1,35 @@
+{
+  "name": "login-page-community",
+  "author": "teleportHQ",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/common": "^14.2.11",
+    "@angular/compiler": "^14.2.11",
+    "@angular/core": "^14.2.11",
+    "@angular/forms": "^14.2.11",
+    "@angular/platform-browser": "^14.2.11",
+    "@angular/platform-browser-dynamic": "^14.2.11",
+    "@angular/router": "^14.2.11",
+    "@ng-bootstrap/ng-bootstrap": "^13.1.1",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.3",
+    "core-js": "~3.0.1",
+    "rxjs": "~6.6.0",
+    "tslib": "^2.1.0",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^14.2.11",
+    "@angular/cli": "^14.2.11",
+    "@angular/compiler-cli": "^14.2.11",
+    "@types/node": "^12.11.1",
+    "typescript": "^4.7.3"
+  }
+}

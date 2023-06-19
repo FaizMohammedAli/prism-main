@@ -1,0 +1,99 @@
+<div class="container">
+  <div class="justify-content-center pt-5" style="display: flex;">
+    <span style="margin-left: -30px"><span class="title-heading">PRISM -- One Click</span></span>
+    <img src="/assets/playground_assets/image39689-k9mv-200w.png" alt="image39689" class="log-in-image3" />
+  </div>
+  <div class="justify-content-center pt-3" style="display: flex; font-size: 28px; margin-left: -246px;">
+    Login
+  </div>
+
+  <form [formGroup]="loginForm">
+    <div class="justify-content-center pt-3" style="display: flex;">
+      <div>
+        <span><span>Email</span></span>
+        <div class="log-in-input-field">
+          <div class="log-in-email">
+            <div class="log-in-layer2" style="border-right: 1px solid black;">
+              <img width="28" height="28" src="/assets/playground_assets/email9144-r2s.svg" alt="email9144" />
+            </div>
+          </div>
+          <input formControlName="username" type="text" class="log-in-text04" placeholder="example@gmail.com" />
+        </div>
+      </div>
+    </div>
+    <div class="justify-content-center pt-3" style="display: flex;">
+      <div>
+        <span><span>Password</span></span>
+        <div class="log-in-input-field1">
+          <div class="log-in-email2">
+            <div class="log-in-layer2" style="border-right: 1px solid black;">
+              <img width="28" height="28" src="/assets/playground_assets/password9688-9b9u.svg" alt="Password9688" />
+            </div>
+          </div>
+          <input formControlName="password" type="password" class="log-in-text04" placeholder="********" />
+        </div>
+
+      </div>
+    </div>
+  </form>
+  <div class="justify-content-center pt-3" style="display: flex; color: #079fff;  margin-left: 188px;">
+    Forgot Password?
+  </div>
+
+  <div class="justify-content-center pt-3" style="display: flex;">
+    <button class="log-in-log-in-button">
+      <span (click)="login()" class="log-in-text10"><span>LOGIN</span></span>
+    </button>
+  </div>
+
+  <div class="justify-content-center pt-3" style="display: flex; margin-top: 56px; margin-bottom: 10px">
+    Don't have an account? <span style="color: #079fff; margin-left:2px;"> Sign Up</span>
+  </div>
+
+  <div>
+    <img src="/assets/playground_assets/image19147-0zvn-900w.png" alt="image19147" class="log-in-image1" />
+  </div>
+</div>
+
+<!-- <div class="log-in-container container">
+  <div class="log-in-log-in">
+    <img src="/assets/playground_assets/image19147-0zvn-900w.png" alt="image19147" class="log-in-image1" />
+    <span class="log-in-text"><span>Log In</span></span>
+    <div class="log-in-email-field">
+      <span class="log-in-text02"><span>Email</span></span>
+      <div class="log-in-input-field">
+        <div class="log-in-email">
+          <div class="log-in-layer2">
+            <img src="/assets/playground_assets/email9144-r2s.svg" alt="email9144" class="log-in-email1" />
+          </div>
+        </div>
+        <img src="/assets/playground_assets/line19144-jww.svg" alt="Line19144" class="log-in-line1" />
+        <span class="log-in-text04"><span>example@gmail.com</span></span>
+      </div>
+    </div>
+    <div class="log-in-email-field1">
+      <span class="log-in-text06"><span>Password</span></span>
+      <div class="log-in-input-field1">
+        <div class="log-in-email2">
+          <img src="/assets/playground_assets/password9688-9b9u.svg" alt="Password9688" class="log-in-password" />
+        </div>
+        <img src="/assets/playground_assets/line19688-5hum.svg" alt="Line19688" class="log-in-line11" />
+        <span class="log-in-text08"><span>********</span></span>
+      </div>
+    </div>
+    <button class="log-in-log-in-button">
+      <span class="log-in-text10"><span>Log In</span></span>
+    </button>
+    <span class="log-in-text12">
+      <span class="log-in-text13">
+        Don’t have an account?
+        <span [innerHTML]="rawh8xe"></span>
+      </span>
+      <span>Sign Up</span>
+    </span>
+    <div class="log-in-group1">
+      <span class="log-in-text15"><span>PRISM - One Click</span></span>
+      <img src="/assets/playground_assets/image39689-k9mv-200w.png" alt="image39689" class="log-in-image3" />
+    </div>
+  </div>
+</div> -->

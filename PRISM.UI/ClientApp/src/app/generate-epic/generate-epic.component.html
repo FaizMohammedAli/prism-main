@@ -1,0 +1,98 @@
+<div class="container">
+    <form [formGroup]="instructionForm">
+        <div class="mt-5" style="display: flex;">
+            <span><span class="title-heading">PRISM -- One Click</span></span>
+            <img src="/assets/playground_assets/image39689-k9mv-200w.png" alt="image39689" class="log-in-image3" />
+            <img src="/assets/playground_assets/image11146-p3ce-900w.png" alt="image11146" class="epicpage-image1" />
+        </div>
+
+        <div class="mt-5">
+            <div>
+                <span class="epicpage-text19"><span>Epic Title</span></span>
+                <div class="epicpage-input-field1">
+                    <div class="log-in-layer2">
+                        <img style="margin-left: -20px;" width="28" height="28"
+                            src="/assets/playground_assets/line11146-86w.svg" alt="Epic Title" />
+                    </div>
+                    <input formControlName="title" type="text" class="epicpage-text07"
+                        placeholder="Insert text for Epic Title" />
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-5">
+            <div>
+                <span class="epicpage-text19"><span>Description</span></span>
+                <div class="epicpage-input-field3">
+                    <div class="log-in-layer2">
+                        <img src="/assets/playground_assets/line11146-4jwo.svg" alt="Line11146"
+                            class="epicpage-line12" />
+                    </div>
+                    <textarea formControlName="description" type="text" class="epicpage-text07"
+                        placeholder="Insert text for Description"> </textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="justify-content-center pt-4" style="display: flex;">
+            <button (click)="generateBacklogs()" class="log-in-log-in-button">
+                <span class="epicpage-text01"><span>Generate Backlogs</span></span>
+            </button>
+        </div>
+    </form>
+    <div *ngIf="isGeneratingLogs" class="justify-content-center pt-3" style="display: flex;">
+        <app-loader></app-loader>
+    </div>
+
+    <div *ngIf="areLogsGenerated">
+
+
+        <div class="mt-5">
+            <div class="epicpage-review-acceptance-criteria">
+                <span class="epicpage-text19"><span>Review Backlog</span></span>
+            </div>
+            <div class="generatedText" style="flex-direction: column; margin-bottom: 20px;">
+                <div class="form-check" *ngFor="let log of generatedLogs; let i = index;">
+                    <input (change)="checkValue(i)" style="cursor: pointer;" class="form-check-input" type="checkbox"
+                        value="" id="flexCheckChecked{{i}}" [checked]="log.checked">
+                    <label class="form-check-label" for="flexCheckChecked{{i}}">
+                        {{log.value.split(".")[1]}}
+                    </label>
+                </div>
+            </div>
+        </div>
+        <form [formGroup]="logsForm">
+
+            <div class="mt-5" style="margin-bottom: 20px">
+                <div>
+                    <span class="epicpage-text19"><span>Add Custom Backlogs</span></span>
+                    <div style="display:flex;" *ngFor="let customLog of customLogs">
+                        <div class="epicpage-input-field1 col-lg-12 mt-2">
+                            <div class="log-in-layer2">
+                                <img style="margin-left: -20px;" width="28" height="28"
+                                    src="/assets/playground_assets/line11146-86w.svg" alt="Story Description" />
+                            </div>
+                            <input type="text" class="epicpage-text07"
+                                placeholder="Enter the description of the story" formControlName="log{{customLog.id}}"/>
+                        </div>
+                        <span style="cursor:pointer; margin-left: 15px; margin-top: 20px;">
+                            <img (click)="removeStory(customLog.id)" src="/assets/icons/cros.svg" width="28" height="28" />
+                        </span>
+                    </div>
+                    <span class="epicpage-text13" style="color: #079fff; cursor: pointer;">
+                        <span (click)="addNewStory()">+ Add Acceptance Criteria / Add Story</span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="justify-content-center" style="display: flex;margin-bottom: 20px">
+                <button (click)="addStories()" class="log-in-log-in-button">
+                    <span class="epicpage-text01"><span>Create Backlogs on JIRA</span></span>
+                </button>,
+                <div style="color: white; margin-top: 20px">
+                    Sample Data
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
